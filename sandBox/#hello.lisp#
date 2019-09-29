@@ -17,3 +17,11 @@
 
 (defun half (n)
   (/ n 2))
+
+(defun multi-digit-p (n)
+  (> n 9))
+
+(defun onemorep (x y)
+  (equal (add1 y) x))
+
+
